@@ -1,0 +1,184 @@
+[I 21:49:18.088 LabApp] JupyterLab extension loaded from /home/luojiapeng/apps/anaconda3/envs/tf1.10/lib/python3.6/site-packages/jupyterlab
+[I 21:49:18.089 LabApp] JupyterLab application directory is /home/luojiapeng/apps/anaconda3/envs/tf1.10/share/jupyter/lab
+[W 21:49:18.090 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 21:49:18.092 LabApp] JupyterLab extension loaded from /home/luojiapeng/apps/anaconda3/envs/tf1.10/lib/python3.6/site-packages/jupyterlab
+[I 21:49:18.092 LabApp] JupyterLab application directory is /home/luojiapeng/apps/anaconda3/envs/tf1.10/share/jupyter/lab
+[I 21:49:18.092 LabApp] Serving notebooks from local directory: /home/luojiapeng/project/new_mtcnn
+[I 21:49:18.092 LabApp] The Jupyter Notebook is running at:
+[I 21:49:18.092 LabApp] http://192.168.124.8:8888/?token=dc4dce8088696fd71ba71a1fa4a27f10b517127df871d17e
+[I 21:49:18.092 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:49:18.093 LabApp] No web browser found: could not locate runnable browser.
+[C 21:49:18.093 LabApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://192.168.124.8:8888/?token=dc4dce8088696fd71ba71a1fa4a27f10b517127df871d17e
+[I 21:49:32.404 LabApp] 302 GET /?token=dc4dce8088696fd71ba71a1fa4a27f10b517127df871d17e (192.168.124.109) 0.61ms
+[W 21:49:33.198 LabApp] Could not determine jupyterlab build status without nodejs
+[I 21:49:33.915 LabApp] Kernel started: 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 21:49:33.928 LabApp] Kernel started: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:49:34.315 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 21:49:34.343 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 21:49:34.373 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:49:34.400 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:49:41.476 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 21:49:41.696 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:49:42.110 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:49:42.111 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 21:49:42.111 LabApp] Replaying 3 buffered messages
+[I 21:49:42.148 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:49:54.771 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 21:50:02.216 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 21:50:04.906 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 21:50:05.424 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:50:05.833 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 21:50:05.834 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 21:50:05.834 LabApp] Replaying 6 buffered messages
+[I 21:50:05.854 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+2018-12-03 21:50:11.819656: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-03 21:50:18.597314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:88:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-03 21:50:18.597368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 21:50:18.917906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 21:50:18.917962: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 21:50:18.917985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 21:50:18.918264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11241 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 21:52:02.249 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+2018-12-03 22:00:32.747697: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:00:32.747787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:00:32.747803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:00:32.747814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:00:32.748107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11241 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 22:02:02.350 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 22:22:43.579 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 22:22:45.189 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:22:45.709 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:22:45.710 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 22:22:45.710 LabApp] Replaying 5 buffered messages
+[I 22:22:45.737 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:24:03.456 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 22:27:24.188 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 22:27:24.399 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:27:24.833 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:27:24.833 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 22:27:24.833 LabApp] Replaying 3 buffered messages
+[I 22:27:24.855 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:28:04.349 LabApp] Kernel interrupted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:28:07.265 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 22:28:07.480 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:28:07.921 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 22:28:07.921 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 22:28:07.921 LabApp] Replaying 3 buffered messages
+[I 22:28:07.939 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+2018-12-03 22:28:13.481988: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-03 22:28:20.095548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:88:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-03 22:28:20.095596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:28:20.421391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:28:20.421435: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:28:20.421442: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:28:20.421736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11241 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 22:30:03.495 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 22:32:03.539 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+2018-12-03 22:39:04.585919: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:39:04.586021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:39:04.586043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:39:04.586060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:39:04.586459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11241 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+2018-12-03 22:39:17.453779: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:39:17.453821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:39:17.453827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:39:17.453831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:39:17.457833: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11241 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 22:40:03.688 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 22:45:25.092 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 22:47:24.995 LabApp] Saving file at /notebook/inspect_tfrecord.ipynb
+[I 22:48:10.370 LabApp] Starting buffering for 7bc87931-f27f-4aa6-8ec6-c71eda2138e4:e2f2f6a7-9c3e-44c7-9f2c-9206000d9889
+[I 22:48:10.582 LabApp] Kernel restarted: 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 22:48:11.024 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 22:48:11.026 LabApp] Discarding 5 buffered messages for 7bc87931-f27f-4aa6-8ec6-c71eda2138e4:e2f2f6a7-9c3e-44c7-9f2c-9206000d9889
+[I 22:48:11.068 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 22:49:25.051 LabApp] Saving file at /notebook/inspect_tfrecord.ipynb
+2018-12-03 22:49:34.975344: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-03 22:49:35.270174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:88:00.0
+totalMemory: 11.91GiB freeMemory: 151.75MiB
+2018-12-03 22:49:35.270209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:49:35.544539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:49:35.544580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:49:35.544586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:49:35.544775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 87 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+2018-12-03 22:49:35.546288: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 87.75M (92012544 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-12-03 22:50:00.740803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:50:00.740896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:50:00.740933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:50:00.740951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:50:00.741300: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 87 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 22:50:58.292 LabApp] Starting buffering for 7bc87931-f27f-4aa6-8ec6-c71eda2138e4:e2f2f6a7-9c3e-44c7-9f2c-9206000d9889
+[I 22:50:58.806 LabApp] Kernel restarted: 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 22:50:59.229 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+[I 22:50:59.231 LabApp] Discarding 3 buffered messages for 7bc87931-f27f-4aa6-8ec6-c71eda2138e4:e2f2f6a7-9c3e-44c7-9f2c-9206000d9889
+[I 22:50:59.260 LabApp] Adapting to protocol v5.1 for kernel 7bc87931-f27f-4aa6-8ec6-c71eda2138e4
+2018-12-03 22:51:05.660604: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-03 22:51:05.941395: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:88:00.0
+totalMemory: 11.91GiB freeMemory: 151.75MiB
+2018-12-03 22:51:05.941429: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:51:06.359113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:51:06.359157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 22:51:06.359163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 22:51:06.359351: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 87 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+2018-12-03 22:51:06.360811: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 87.75M (92012544 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+[I 22:51:25.121 LabApp] Saving file at /notebook/inspect_tfrecord.ipynb
+[I 22:53:25.463 LabApp] Saving file at /notebook/inspect_tfrecord.ipynb
+[I 11:12:23.390 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 11:12:24.106 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 11:12:24.509 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 11:12:24.511 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 11:12:24.511 LabApp] Replaying 3 buffered messages
+[I 11:12:24.540 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+2018-12-04 11:12:28.937294: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-04 11:12:29.221404: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:88:00.0
+totalMemory: 11.91GiB freeMemory: 11.20GiB
+2018-12-04 11:12:29.221446: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-04 11:12:29.502444: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-04 11:12:29.502500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-04 11:12:29.502506: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-04 11:12:29.502810: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10831 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 11:13:18.500 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+2018-12-04 11:23:13.245253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-04 11:23:13.245320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-04 11:23:13.245327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-04 11:23:13.245332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-04 11:23:13.245635: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10831 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 11:23:18.598 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+2018-12-04 11:23:26.252773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-04 11:23:26.252827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-04 11:23:26.252834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-04 11:23:26.252839: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-04 11:23:26.253080: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10831 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0)
+[I 11:25:18.658 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 11:29:15.896 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 11:32:32.770 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 11:32:33.484 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 11:32:33.967 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 11:32:33.968 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 11:32:33.968 LabApp] Replaying 5 buffered messages
+[I 11:32:33.987 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 11:33:16.545 LabApp] Saving file at /notebook/eval_mtcnn.ipynb
+[I 12:10:09.093 LabApp] Starting buffering for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 12:10:09.507 LabApp] Kernel restarted: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 12:10:09.981 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 12:10:09.983 LabApp] Restoring connection for f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04:17f64300-4842-4dbb-b655-fc2f72b13daf
+[I 12:10:09.983 LabApp] Replaying 6 buffered messages
+[I 12:10:10.004 LabApp] Adapting to protocol v5.1 for kernel f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 13:35:38.538 LabApp] Kernel shutdown: f90bf01e-3994-4d6c-9ae0-ffcae5a4ab04
+[I 13:35:39.352 LabApp] Kernel shutdown: 7bc87931-f27f-4aa6-8ec6-c71eda2138e4

@@ -1,0 +1,18 @@
+nohup: ignoring input
+INFO:tensorflow:Using config: {'_model_dir': 'checkpoints/pnet_mse_t3_0', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': None, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fe916f45240>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Graph was finalized.
+2018-12-03 10:27:49.172263: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-03 10:27:49.472192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:8d:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-03 10:27:49.472241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 10:27:49.914964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 10:27:49.915021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-12-03 10:27:49.915029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-12-03 10:27:49.915340: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11241 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:8d:00.0, compute capability: 6.0)
+INFO:tensorflow:Restoring parameters from checkpoints/pnet_mse_t3_0/model.ckpt-200000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
