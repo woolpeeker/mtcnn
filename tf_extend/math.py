@@ -69,6 +69,7 @@ def cummax(x, reverse=False, name=None):
 
 def get_median(v):
     with tf.name_scope('get_median'):
+        v = tf.reshape(v, [-1])
         mid = tf.size(v)//2
         v,idx=tf.nn.top_k(v, mid)
         return v[-1]

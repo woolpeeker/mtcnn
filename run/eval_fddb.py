@@ -1,6 +1,6 @@
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES']='2'
+os.environ['CUDA_VISIBLE_DEVICES']='7'
 
 import os, re
 
@@ -60,7 +60,7 @@ def save_fddb_result(outFile, fnames, result):
         fid.close()
 
 def eval_on_fddb():
-    output_dir = tfe.get_checkpoint_dir('result', 'fddb_onet_pin_1')
+    output_dir = tfe.get_checkpoint_dir('result', 'fddb_fixQuan_i10f10')
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     outFile = os.path.join(output_dir, 'detectBboxes.txt')
@@ -77,4 +77,5 @@ def eval_on_fddb():
     save_fddb_result(outFile, fnames, o_res)
 
 if __name__=='__main__':
+    tf.logging.set_verbosity(tf.logging.DEBUG)
     eval_on_fddb()

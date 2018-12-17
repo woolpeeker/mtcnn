@@ -25,15 +25,25 @@ class RNet:
                                 padding='valid'):
                 with slim.arg_scope([slim.batch_norm], is_training = is_training):
                     net = slim.conv2d(images, num_outputs=28, kernel_size=[3, 3], stride=1)
+                    net = tfe.fake_quantize(net)
                     net = slim.max_pool2d(net, kernel_size=[3, 3], stride=2, padding='SAME')
+                    net = tfe.fake_quantize(net)
                     net = slim.conv2d(net, num_outputs=48, kernel_size=[3, 3], stride=1)
+                    net = tfe.fake_quantize(net)
                     net = slim.max_pool2d(net, kernel_size=[3, 3], stride=2)
+                    net = tfe.fake_quantize(net)
                     net = slim.conv2d(net, num_outputs=64, kernel_size=[2, 2], stride=1)
+                    net = tfe.fake_quantize(net)
                     fc_flatten = slim.flatten(net)
+                    fc_flatten = tfe.fake_quantize(fc_flatten)
                     fc1 = slim.fully_connected(fc_flatten, num_outputs=128)
+                    fc1 = tfe.fake_quantize(fc1)
                     pred_logit = slim.fully_connected(fc1, num_outputs=2, activation_fn=None, normalizer_fn=None)
+                    pred_logit = tfe.fake_quantize(pred_logit)
                     pred_cls = slim.softmax(pred_logit)[...,1]
+                    pred_cls = tfe.fake_quantize(pred_cls)
                     pred_loc = slim.fully_connected(fc1, num_outputs=4, activation_fn=None, normalizer_fn=None)
+                    pred_loc = tfe.fake_quantize(pred_loc)
                     return {'pred_logit': pred_logit,
                             'pred_cls': pred_cls,
                             'pred_loc': pred_loc}

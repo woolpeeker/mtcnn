@@ -21,7 +21,8 @@ class MTCNN:
                                             params=pnet_params,
                                             config=pnet_runConfig)
         pnet_input_fn = input_fn
-        pnet_result = classifier.predict(pnet_input_fn)
+        hooks=[tfe.quantizeHook()]
+        pnet_result = classifier.predict(pnet_input_fn, hooks=hooks)
         pnet_result = list(pnet_result)
 
         if 'rnet_model_dir' in params and params['rnet_model_dir']:
@@ -33,7 +34,8 @@ class MTCNN:
                                                 params=rnet_params,
                                                 config=rnet_runConfig)
             rnet_input_fn = lambda: self.convert_result_to_dataset(input_fn,pnet_result, (24,24))
-            rnet_result = classifier.predict(rnet_input_fn)
+            hooks = [tfe.quantizeHook()]
+            rnet_result = classifier.predict(rnet_input_fn, hooks=hooks)
             rnet_result = list(rnet_result)
 
         if 'onet_model_dir' in params and params['onet_model_dir']:
@@ -45,7 +47,8 @@ class MTCNN:
                                                 params=onet_params,
                                                 config=onet_runConfig)
             onet_input_fn = lambda: self.convert_result_to_dataset(input_fn, rnet_result, (48,48))
-            onet_result = classifier.predict(onet_input_fn)
+            hooks = [tfe.quantizeHook()]
+            onet_result = classifier.predict(onet_input_fn, hooks=hooks)
             onet_result = list(onet_result)
         return pnet_result, rnet_result, onet_result
 

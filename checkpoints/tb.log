@@ -1,92 +1,62 @@
-nohup: ignoring input
-W1203 22:20:18.752951 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:18.752951 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:18.753877 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:20:18.753877 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-TensorBoard 1.10.0 at http://vlsi-P100:6006 (Press CTRL+C to quit)
-W1203 22:20:32.562235 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:32.562235 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:32.563368 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:20:32.563368 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:20:43.820631 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:43.820631 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:43.823070 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:20:43.823070 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:20:55.165944 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:55.165944 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 22:20:55.167065 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:20:55.167065 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 22:54:49.038068 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'rnet_t3_1'
-W1203 22:54:49.038068 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'rnet_t3_1'
-W1203 23:07:43.620716 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 23:07:43.620716 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 23:07:43.622452 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 23:07:43.622452 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 23:44:40.606446 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'onet_4'
-W1203 23:44:40.606446 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'onet_4'
-W1203 23:45:55.976579 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 23:45:55.976579 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 23:46:01.006010 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 23:46:01.006010 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 23:47:56.792824 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 23:47:56.792824 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1203 23:48:32.097547 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1203 23:48:32.097547 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:07:38.447193 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:07:38.447193 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:07:48.573897 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:07:48.573897 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:09:24.475371 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:09:24.475371 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:09:29.563489 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:09:29.563489 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:11:56.312774 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:11:56.312774 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:12:06.439605 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:12:06.439605 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:16:59.395012 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:16:59.395011 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:17:04.437566 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:17:04.437566 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:24:29.784562 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:24:29.784562 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:24:39.948911 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:24:39.948911 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:27:37.212913 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:27:37.212913 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 00:27:42.272949 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 00:27:42.272949 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 11:30:01.559794 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l3t3_0'
-W1204 11:30:01.559794 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l3t3_0'
-W1204 11:30:16.772000 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l2t3_0'
-W1204 11:30:16.772000 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l2t3_0'
-W1204 11:30:26.887025 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_0'
-W1204 11:30:26.887024 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_0'
-W1204 11:30:42.037203 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_1'
-W1204 11:30:42.037203 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_1'
-W1204 11:30:52.129891 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_2'
-W1204 11:30:52.129890 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_2'
-W1204 11:31:02.233371 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_3'
-W1204 11:31:02.233371 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l1t3_3'
-W1204 11:35:29.007388 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 11:35:29.007388 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 11:35:29.009415 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 11:35:29.009414 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 11:35:59.948312 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l2t3_1'
-W1204 11:35:59.948312 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_l2t3_1'
-W1204 12:18:31.560944 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 12:18:31.560944 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 12:18:51.691224 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 12:18:51.691224 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 14:05:09.922194 Reloader tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 14:05:09.922194 139933034587904 tf_logging.py:120] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
-W1204 14:05:45.187535 Reloader tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1204 14:05:45.187535 139933034587904 tf_logging.py:120] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
-W1205 09:53:28.863170 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_t3_0'
-W1205 09:53:28.863169 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'pnet_mse_t3_0'
-W1205 09:53:34.097352 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'rnet_l1t3_0'
-W1205 09:53:34.097352 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'rnet_l1t3_0'
-W1205 09:53:49.381531 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'onet_pin_0'
-W1205 09:53:49.381531 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'onet_pin_0'
-W1205 09:53:54.745161 Reloader plugin_event_multiplexer.py:242] Deleting accumulator 'onet_3'
-W1205 09:53:54.745161 139933034587904 plugin_event_multiplexer.py:242] Deleting accumulator 'onet_3'
+2018-12-07 09:26:49.361450: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-12-07 09:26:49.920797: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:88:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:50.140053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 1 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:8d:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:50.365309: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 2 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:8e:00.0
+totalMemory: 11.91GiB freeMemory: 179.75MiB
+2018-12-07 09:26:50.597548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 3 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:8f:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:50.846593: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 4 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:b2:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:51.095630: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 5 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:b3:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:51.351240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 6 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:b4:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:51.846467: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 7 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:b5:00.0
+totalMemory: 11.91GiB freeMemory: 11.62GiB
+2018-12-07 09:26:51.863411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0, 1, 2, 3, 4, 5, 6, 7
+2018-12-07 09:26:54.348375: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-07 09:26:54.348435: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 1 2 3 4 5 6 7 
+2018-12-07 09:26:54.348443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N Y Y Y N N N N 
+2018-12-07 09:26:54.348449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 1:   Y N Y Y N N N N 
+2018-12-07 09:26:54.348454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 2:   Y Y N Y N N N N 
+2018-12-07 09:26:54.348459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 3:   Y Y Y N N N N N 
+2018-12-07 09:26:54.348464: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 4:   N N N N N Y Y Y 
+2018-12-07 09:26:54.348469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 5:   N N N N Y N Y Y 
+2018-12-07 09:26:54.348474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 6:   N N N N Y Y N Y 
+2018-12-07 09:26:54.348479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 7:   N N N N Y Y Y N 
+W1207 09:26:54.368334 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 09:26:54.374179 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 09:26:54.375180 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1207 09:26:54.380727 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 09:26:54.382213 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+TensorBoard 1.8.0 at http://vlsi-P100:6007 (Press CTRL+C to quit)
+W1207 09:44:38.486620 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1207 09:44:43.498052 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 01:18:41.107268 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 01:18:46.117794 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 14:09:59.916988 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 14:10:09.946846 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 14:12:00.373375 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 14:12:10.395390 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 14:13:30.687372 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 14:13:40.715128 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.
+W1208 14:20:22.910796 Reloader plugin_event_accumulator.py:300] Found more than one graph event per run, or there was a metagraph containing a graph_def, as well as one or more graph events.  Overwriting the graph with the newest event.
+W1208 14:20:32.943657 Reloader plugin_event_accumulator.py:308] Found more than one metagraph event per run. Overwriting the metagraph with the newest event.

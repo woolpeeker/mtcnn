@@ -24,3 +24,4 @@ from tf_extend.math import *
 from tf_extend.anchor import *
 from tf_extend.misc import *
 from tf_extend.tfrecord import *
+from tf_extend.quantize import *
