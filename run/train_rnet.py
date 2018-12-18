@@ -1,6 +1,6 @@
 import tensorflow as tf
 import os
-os.environ['CUDA_VISIBLE_DEVICES']='1'
+os.environ['CUDA_VISIBLE_DEVICES']='6'
 
 import tf_extend as tfe
 
@@ -29,7 +29,7 @@ def train():
     return
 
 def gen_samples():
-    model_dir = 'checkpoints/rnet_l2t3_0'
+    model_dir = 'checkpoints/rnet_l2t3_1'
     runConfig = tf.estimator.RunConfig(model_dir=model_dir)
     params = {'gen_samples': True,
               'thres': 0.3}

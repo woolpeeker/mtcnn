@@ -1,7 +1,7 @@
 import tensorflow as tf
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='2'
+os.environ['CUDA_VISIBLE_DEVICES']='6'
 
 import tf_extend as tfe
 
@@ -10,7 +10,7 @@ import input.input_fn as input_fn
 
 
 pnet_tfname = 'checkpoints/pnet_mse_l2t3_0/pnet.tfrecord'
-rnet_tfname = 'checkpoints/rnet_l2t3_0/rnet.tfrecord'
+rnet_tfname = 'checkpoints/rnet_l2t3_1/rnet.tfrecord'
 train_input_fn = lambda: input_fn.input_onet_train_fn(tfnames=[pnet_tfname, rnet_tfname])
 #gen_samples_fn = lambda: input_fn.input_onet_gen_samples_fn(tfname=rnet_tfname)
 

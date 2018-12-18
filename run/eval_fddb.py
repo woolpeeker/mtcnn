@@ -60,16 +60,16 @@ def save_fddb_result(outFile, fnames, result):
         fid.close()
 
 def eval_on_fddb():
-    output_dir = tfe.get_checkpoint_dir('result', 'fddb_fixQuan_i10f10')
+    output_dir = tfe.get_checkpoint_dir('result', 'fddb_baseline')
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     outFile = os.path.join(output_dir, 'detectBboxes.txt')
     params = {
         'pnet_model_dir': 'checkpoints/pnet_mse_l2t3_0',
         'pnet_thres': 0.3,
-        'rnet_model_dir': 'checkpoints/rnet_l2t3_0',
+        'rnet_model_dir': 'checkpoints/rnet_l2t3_1',
         'rnet_thres': 0.3,
-        'onet_model_dir': 'checkpoints/onet_pin_1',
+        'onet_model_dir': 'checkpoints/onet_pin_3',
         'onet_thres': 0.2
     }
     p_res, r_res, o_res = mtcnn_obj.predict(get_fddb, params)
