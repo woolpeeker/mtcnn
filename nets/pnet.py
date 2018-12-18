@@ -34,21 +34,21 @@ class PNet:
                                is_training=is_training):
                     images = images/255-0.5
                     net = slim.conv2d(images, num_outputs=10, kernel_size=[3, 3], stride=2)
-                    #net = tfe.fake_quantize(net)
+                    net = tfe.fake_quantize(net)
                     net = slim.conv2d(net, num_outputs=16, kernel_size=[3, 3], stride=1)
-                    #net = tfe.fake_quantize(net)
+                    net = tfe.fake_quantize(net)
                     net = slim.conv2d(net, num_outputs=32, kernel_size=[3, 3], stride=2)
-                    #net = tfe.fake_quantize(net)
+                    net = tfe.fake_quantize(net)
                     net = slim.conv2d(net, num_outputs=32, kernel_size=[3, 3], stride=1)
-                    #net = tfe.fake_quantize(net)
+                    net = tfe.fake_quantize(net)
                     pred_logit = slim.conv2d(net, num_outputs=2, kernel_size=[1, 1], stride=1,
                                            activation_fn=None, normalizer_fn=None)
-                    #pred_logit = tfe.fake_quantize(pred_logit)
+                    pred_logit = tfe.fake_quantize(pred_logit)
                     pred_cls = slim.softmax(pred_logit)[...,1]
-                    #pred_cls = tfe.fake_quantize(pred_cls)
+                    pred_cls = tfe.fake_quantize(pred_cls)
                     pred_loc = slim.conv2d(net, num_outputs=4, kernel_size=[1, 1], stride=1,
                                            activation_fn=None, normalizer_fn=None)
-                    #pred_loc = tfe.fake_quantize(pred_loc)
+                    pred_loc = tfe.fake_quantize(pred_loc)
                     predictions = {'pred_cls': pred_cls,
                                    'pred_logit':pred_logit,
                                    'pred_loc': pred_loc}
